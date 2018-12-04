@@ -1,5 +1,4 @@
-# cs2340
+# Donation Tracker
 
-The Disney Channel Flow presents...
-
-<a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
+Donation Tracker Implementation for iOS
+Created with Swift
