@@ -18,11 +18,12 @@ class LocationInfoViewController: UIViewController {
     @IBOutlet weak var locationType: UILabel!
     var information : String = ""
     var swag : String = ""
+    var arr = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         //locationInfo?.text = information
-        var arr = swag.components(separatedBy: ",")
+        arr = swag.components(separatedBy: ",")
         locationInfo?.text = arr[0]
         locationType?.text = arr[1]
         locationAddress?.text = arr[5]
@@ -31,6 +32,25 @@ class LocationInfoViewController: UIViewController {
         locationNumber?.text = arr[3]
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is MapViewController {
+            
+            /*let selectedIndex = sender as! NSIndexPath
+             let cell = tableView.cellForRow(at: selectedIndex as IndexPath)
+             self.sendSelectedData = (cell.label?.text)! as String as NSString
+             
+             print(self.sendSelectedData) // till here it worked for me - it is filled with my label.text
+             // I don't know what this is "viewController.labelcell", so you have to to know how to go on from here on
+             
+             viewController.labelcell = ([self.sendSelectedData as String])*/
+            let vc = segue.destination as? MapViewController
+            vc?.locationData = arr
+            /*NSLog("Hi %i", selectedIndex)
+            vc?.swag = trueswag[selectedIndex] as! String*/
+            
+        }
     }
     
 

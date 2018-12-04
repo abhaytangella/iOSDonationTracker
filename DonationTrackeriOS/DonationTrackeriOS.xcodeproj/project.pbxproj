@@ -134,8 +134,8 @@
 				DC60C85421B4927A006D71BF /* Assets.xcassets */,
 				DC60C85621B4927A006D71BF /* LaunchScreen.storyboard */,
 				DC60C85921B4927A006D71BF /* Info.plist */,
-				DC1F2EDE21B60168001CB168 /* LocationTableViewController.swift */,
 				DC1F2EE021B60EAB001CB168 /* LocationInfoViewController.swift */,
+				DC1F2EDE21B60168001CB168 /* LocationTableViewController.swift */,
 			);
 			path = DonationTrackeriOS;
 			sourceTree = "<group>";
