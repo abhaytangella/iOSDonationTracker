@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8FAEEC2E1DE53CE2E26AA4 /* Pods_DonationTrackeriOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7ADE4D24F46077F32E321D4 /* Pods_DonationTrackeriOSTests.framework */; };
+		804377BF7524F1D1DFD36A29 /* Pods_DonationTrackeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DA00E35271BE25EE72D19A /* Pods_DonationTrackeriOS.framework */; };
+		DC1F2EDF21B60168001CB168 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F2EDE21B60168001CB168 /* LocationTableViewController.swift */; };
+		DC1F2EE121B60EAB001CB168 /* LocationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F2EE021B60EAB001CB168 /* LocationInfoViewController.swift */; };
+		DC60C84E21B49278006D71BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60C84D21B49278006D71BF /* AppDelegate.swift */; };
+		DC60C85021B49278006D71BF /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60C84F21B49278006D71BF /* StartViewController.swift */; };
+		DC60C85321B49278006D71BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC60C85121B49278006D71BF /* Main.storyboard */; };
+		DC60C85521B4927A006D71BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC60C85421B4927A006D71BF /* Assets.xcassets */; };
+		DC60C85821B4927A006D71BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC60C85621B4927A006D71BF /* LaunchScreen.storyboard */; };
+		DC60C86321B4927A006D71BF /* DonationTrackeriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60C86221B4927A006D71BF /* DonationTrackeriOSTests.swift */; };
+		DC60C87021B49369006D71BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60C86F21B49369006D71BF /* LoginViewController.swift */; };
+		DC60C87221B49398006D71BF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60C87121B49398006D71BF /* SignUpViewController.swift */; };
+		DC60C87421B493A9006D71BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60C87321B493A9006D71BF /* HomeViewController.swift */; };
+		DC60C87821B4AC15006D71BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC60C87721B4AC15006D71BF /* GoogleService-Info.plist */; };
+		DCB54EFE21B5BDAD00711EB3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB54EFD21B5BDAD00711EB3 /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC60C85F21B4927A006D71BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC60C84221B49278006D71BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC60C84921B49278006D71BF;
+			remoteInfo = DonationTrackeriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18298ABD0E07251CA83CFED9 /* Pods-DonationTrackeriOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonationTrackeriOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonationTrackeriOS/Pods-DonationTrackeriOS.release.xcconfig"; sourceTree = "<group>"; };
+		5039350A16E9DD9202CECF3C /* Pods-DonationTrackeriOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonationTrackeriOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonationTrackeriOSTests/Pods-DonationTrackeriOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		992BA31DE507529075CA3F45 /* Pods-DonationTrackeriOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonationTrackeriOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonationTrackeriOS/Pods-DonationTrackeriOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C7ADE4D24F46077F32E321D4 /* Pods_DonationTrackeriOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonationTrackeriOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1F2EDE21B60168001CB168 /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		DC1F2EE021B60EAB001CB168 /* LocationInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoViewController.swift; sourceTree = "<group>"; };
+		DC60C84A21B49278006D71BF /* DonationTrackeriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonationTrackeriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC60C84D21B49278006D71BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC60C84F21B49278006D71BF /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		DC60C85221B49278006D71BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC60C85421B4927A006D71BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC60C85721B4927A006D71BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC60C85921B4927A006D71BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC60C85E21B4927A006D71BF /* DonationTrackeriOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonationTrackeriOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC60C86221B4927A006D71BF /* DonationTrackeriOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationTrackeriOSTests.swift; sourceTree = "<group>"; };
+		DC60C86421B4927A006D71BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC60C86F21B49369006D71BF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC60C87121B49398006D71BF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DC60C87321B493A9006D71BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DC60C87721B4AC15006D71BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCB54EFD21B5BDAD00711EB3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		E8DA00E35271BE25EE72D19A /* Pods_DonationTrackeriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonationTrackeriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1B9E6451E06C9778679DCA /* Pods-DonationTrackeriOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonationTrackeriOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonationTrackeriOSTests/Pods-DonationTrackeriOSTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC60C84721B49278006D71BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804377BF7524F1D1DFD36A29 /* Pods_DonationTrackeriOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC60C85B21B4927A006D71BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8FAEEC2E1DE53CE2E26AA4 /* Pods_DonationTrackeriOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94DD12CEFEF7134603F2A821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				992BA31DE507529075CA3F45 /* Pods-DonationTrackeriOS.debug.xcconfig */,
+				18298ABD0E07251CA83CFED9 /* Pods-DonationTrackeriOS.release.xcconfig */,
+				5039350A16E9DD9202CECF3C /* Pods-DonationTrackeriOSTests.debug.xcconfig */,
+				FF1B9E6451E06C9778679DCA /* Pods-DonationTrackeriOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA419D97DAFA37DCF86535C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8DA00E35271BE25EE72D19A /* Pods_DonationTrackeriOS.framework */,
+				C7ADE4D24F46077F32E321D4 /* Pods_DonationTrackeriOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC60C84121B49278006D71BF = {
+			isa = PBXGroup;
+			children = (
+				DC60C84C21B49278006D71BF /* DonationTrackeriOS */,
+				DC60C86121B4927A006D71BF /* DonationTrackeriOSTests */,
+				DC60C84B21B49278006D71BF /* Products */,
+				94DD12CEFEF7134603F2A821 /* Pods */,
+				BA419D97DAFA37DCF86535C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC60C84B21B49278006D71BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC60C84A21B49278006D71BF /* DonationTrackeriOS.app */,
+				DC60C85E21B4927A006D71BF /* DonationTrackeriOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC60C84C21B49278006D71BF /* DonationTrackeriOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC60C87721B4AC15006D71BF /* GoogleService-Info.plist */,
+				DCB54EFD21B5BDAD00711EB3 /* MapViewController.swift */,
+				DC60C84D21B49278006D71BF /* AppDelegate.swift */,
+				DC60C84F21B49278006D71BF /* StartViewController.swift */,
+				DC60C87121B49398006D71BF /* SignUpViewController.swift */,
+				DC60C87321B493A9006D71BF /* HomeViewController.swift */,
+				DC60C86F21B49369006D71BF /* LoginViewController.swift */,
+				DC60C85121B49278006D71BF /* Main.storyboard */,
+				DC60C85421B4927A006D71BF /* Assets.xcassets */,
+				DC60C85621B4927A006D71BF /* LaunchScreen.storyboard */,
+				DC60C85921B4927A006D71BF /* Info.plist */,
+				DC1F2EDE21B60168001CB168 /* LocationTableViewController.swift */,
+				DC1F2EE021B60EAB001CB168 /* LocationInfoViewController.swift */,
+			);
+			path = DonationTrackeriOS;
+			sourceTree = "<group>";
+		};
+		DC60C86121B4927A006D71BF /* DonationTrackeriOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC60C86221B4927A006D71BF /* DonationTrackeriOSTests.swift */,
+				DC60C86421B4927A006D71BF /* Info.plist */,
+			);
+			path = DonationTrackeriOSTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC60C84921B49278006D71BF /* DonationTrackeriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC60C86721B4927A006D71BF /* Build configuration list for PBXNativeTarget "DonationTrackeriOS" */;
+			buildPhases = (
+				02E3515CCCE18A086F373FD0 /* [CP] Check Pods Manifest.lock */,
+				DC60C84621B49278006D71BF /* Sources */,
+				DC60C84721B49278006D71BF /* Frameworks */,
+				DC60C84821B49278006D71BF /* Resources */,
+				DCA60B47CCBF3BC93398B19A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonationTrackeriOS;
+			productName = DonationTrackeriOS;
+			productReference = DC60C84A21B49278006D71BF /* DonationTrackeriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC60C85D21B4927A006D71BF /* DonationTrackeriOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC60C86A21B4927A006D71BF /* Build configuration list for PBXNativeTarget "DonationTrackeriOSTests" */;
+			buildPhases = (
+				DE7687619F0307115F806046 /* [CP] Check Pods Manifest.lock */,
+				DC60C85A21B4927A006D71BF /* Sources */,
+				DC60C85B21B4927A006D71BF /* Frameworks */,
+				DC60C85C21B4927A006D71BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC60C86021B4927A006D71BF /* PBXTargetDependency */,
+			);
+			name = DonationTrackeriOSTests;
+			productName = DonationTrackeriOSTests;
+			productReference = DC60C85E21B4927A006D71BF /* DonationTrackeriOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC60C84221B49278006D71BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Abhay Tangella";
+				TargetAttributes = {
+					DC60C84921B49278006D71BF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DC60C85D21B4927A006D71BF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DC60C84921B49278006D71BF;
+					};
+				};
+			};
+			buildConfigurationList = DC60C84521B49278006D71BF /* Build configuration list for PBXProject "DonationTrackeriOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC60C84121B49278006D71BF;
+			productRefGroup = DC60C84B21B49278006D71BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC60C84921B49278006D71BF /* DonationTrackeriOS */,
+				DC60C85D21B4927A006D71BF /* DonationTrackeriOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC60C84821B49278006D71BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC60C85821B4927A006D71BF /* LaunchScreen.storyboard in Resources */,
+				DC60C87821B4AC15006D71BF /* GoogleService-Info.plist in Resources */,
+				DC60C85521B4927A006D71BF /* Assets.xcassets in Resources */,
+				DC60C85321B49278006D71BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC60C85C21B4927A006D71BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02E3515CCCE18A086F373FD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonationTrackeriOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA60B47CCBF3BC93398B19A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DonationTrackeriOS/Pods-DonationTrackeriOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonationTrackeriOS/Pods-DonationTrackeriOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE7687619F0307115F806046 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonationTrackeriOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC60C84621B49278006D71BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC60C87421B493A9006D71BF /* HomeViewController.swift in Sources */,
+				DC60C87021B49369006D71BF /* LoginViewController.swift in Sources */,
+				DC60C85021B49278006D71BF /* StartViewController.swift in Sources */,
+				DC60C87221B49398006D71BF /* SignUpViewController.swift in Sources */,
+				DC60C84E21B49278006D71BF /* AppDelegate.swift in Sources */,
+				DCB54EFE21B5BDAD00711EB3 /* MapViewController.swift in Sources */,
+				DC1F2EE121B60EAB001CB168 /* LocationInfoViewController.swift in Sources */,
+				DC1F2EDF21B60168001CB168 /* LocationTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC60C85A21B4927A006D71BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC60C86321B4927A006D71BF /* DonationTrackeriOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC60C86021B4927A006D71BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC60C84921B49278006D71BF /* DonationTrackeriOS */;
+			targetProxy = DC60C85F21B4927A006D71BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC60C85121B49278006D71BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC60C85221B49278006D71BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC60C85621B4927A006D71BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC60C85721B4927A006D71BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC60C86521B4927A006D71BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC60C86621B4927A006D71BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC60C86821B4927A006D71BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992BA31DE507529075CA3F45 /* Pods-DonationTrackeriOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4VY63TK5C;
+				INFOPLIST_FILE = DonationTrackeriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.abhay.DonationTrackeriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC60C86921B4927A006D71BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18298ABD0E07251CA83CFED9 /* Pods-DonationTrackeriOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4VY63TK5C;
+				INFOPLIST_FILE = DonationTrackeriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.abhay.DonationTrackeriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC60C86B21B4927A006D71BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5039350A16E9DD9202CECF3C /* Pods-DonationTrackeriOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonationTrackeriOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.abhay.DonationTrackeriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonationTrackeriOS.app/DonationTrackeriOS";
+			};
+			name = Debug;
+		};
+		DC60C86C21B4927A006D71BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1B9E6451E06C9778679DCA /* Pods-DonationTrackeriOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonationTrackeriOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.abhay.DonationTrackeriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonationTrackeriOS.app/DonationTrackeriOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC60C84521B49278006D71BF /* Build configuration list for PBXProject "DonationTrackeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC60C86521B4927A006D71BF /* Debug */,
+				DC60C86621B4927A006D71BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC60C86721B4927A006D71BF /* Build configuration list for PBXNativeTarget "DonationTrackeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC60C86821B4927A006D71BF /* Debug */,
+				DC60C86921B4927A006D71BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC60C86A21B4927A006D71BF /* Build configuration list for PBXNativeTarget "DonationTrackeriOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC60C86B21B4927A006D71BF /* Debug */,
+				DC60C86C21B4927A006D71BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC60C84221B49278006D71BF /* Project object */;
+}
